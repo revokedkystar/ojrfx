@@ -18,7 +18,7 @@ export default function Footer() {
                 <span className="font-serif font-bold text-xs tracking-tighter text-[#C5A059]">OJR</span>
               </div>
               <span className="font-serif font-bold text-xl tracking-tight text-white">
-                OJR TRADES FX
+                OJR TRADES FX by @h4tfi3ld
               </span>
             </div>
             
