@@ -1,12 +1,6 @@
 /** @type {import('next').NextConfig} */
-const repoName = 'ojrfx'
-
 const nextConfig = {
-  output: 'export',
-  basePath: `/${repoName}`,
-  images: {
-    unoptimized: true,
-  }
-}
+  /* Add custom config options here if needed */
+};
 
 export default nextConfig;
