@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import LiveChartBackground from './LiveChartBackground';
 import { ArrowRight, ShieldCheck, Check, Sparkles, TrendingUp, Calculator, FileCheck } from 'lucide-react';
 
 export default function Hero() {
@@ -7,6 +8,14 @@ export default function Hero() {
     <section className="relative pt-12 pb-20 overflow-hidden border-b border-gray-200 font-serif">
       {/* Background Accent Grid */}
       <div className="absolute inset-0 bg-grid-pattern opacity-40 pointer-events-none" />
+
+      {/* Animated live-trading chart backdrop */}
+      <LiveChartBackground className="opacity-60" />
+      {/* Soft veil behind the headline so copy stays legible */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{ background: 'radial-gradient(ellipse 55% 45% at 50% 40%, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.4) 60%, rgba(255,255,255,0) 100%)' }}
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
